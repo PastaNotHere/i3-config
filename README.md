@@ -1,4 +1,4 @@
-# i3-config
+# i3-config (v4.23)
 
 update to the latest version on mint:
 
