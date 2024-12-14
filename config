@@ -145,10 +145,10 @@ bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle
+bindsym $mod+m floating toggle
 
 # change focus between tiling / floating windows
-bindsym $mod+space focus mode_toggle
+bindsym $mod+n focus mode_toggle
 
 # focus the parent container
 bindsym $mod+a focus parent
@@ -158,16 +158,16 @@ bindsym $mod+a focus parent
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
-set $ws1 "1"
-set $ws2 "2"
-set $ws3 "3"
-set $ws4 "4"
-set $ws5 "5"
-set $ws6 "6"
-set $ws7 "7"
-set $ws8 "8"
-set $ws9 "9"
-set $ws10 "10"
+set $ws1 "1:I"
+set $ws2 "2:II"
+set $ws3 "3:III"
+set $ws4 "4:IV"
+set $ws5 "5:V"
+set $ws6 "6:VI"
+set $ws7 "7:VII"
+set $ws8 "8:VIII"
+set $ws9 "9:IX"
+set $ws10 "X"
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
@@ -233,6 +233,21 @@ bar {
         position                top
         status_command          i3status --config ~/.i3status.conf
         hidden_state            hide
-       # mode                    hide
+        mode                    hide
         font pango:0xProto      9
+        strip_workspace_numbers yes
+        separator_symbol        "||"
+
+    colors {
+        background #000000
+        statusline #ffffff
+        separator  #ffffff
+
+        focused_workspace  #095100 #095100 #ffffff
+        active_workspace   #333333 #5f676a #ffffff
+        inactive_workspace #333333 #222222 #888888
+        urgent_workspace   #2f343a #900000 #ffffff
+        binding_mode       #2f343a #900000 #ffffff
+     }
+
 }
