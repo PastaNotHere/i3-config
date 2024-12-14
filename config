@@ -194,7 +194,7 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # make the terminal transparent
-exec --no-startup-id compton
+exec --no-startup-id compton -f
 
 # using tab for changing the workspace
 bindsym $mod+Tab workspace next
