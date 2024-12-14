@@ -1,2 +1,5 @@
 # i3-config
-my i3 configuration, i'm new to programming so not expect nothing fancy.
+
+update to the latest versionn on mint:
+
+https://askubuntu.com/questions/1415720/ubuntu-22-04-jammy-jellyfish-cannot-install-i3-gaps
