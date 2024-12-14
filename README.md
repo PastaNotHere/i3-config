@@ -9,5 +9,6 @@ dependencies:
 - nitrogen (wallpaper)
 - pavucontrol (audio)
 - ulauncher (user-themes folder is for this launcher)
+- compton (compositor)
 
 *remember to add a dot in the i3status.conf*
