@@ -10,5 +10,6 @@ dependencies:
 - pavucontrol (audio)
 - ulauncher (user-themes folder is for this launcher)
 - compton (compositor)
+- lxapperance (system theme)
 
 *remember to add a dot in the i3status.conf*
