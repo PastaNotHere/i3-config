@@ -8,4 +8,4 @@ dependencies:
 
 - nitrogen (wallpaper)
 - pavucontrol (audio)
-- ulauncher (app launcher)
+- ulauncher (user-themes folder is for this launcher)
