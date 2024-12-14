@@ -52,7 +52,7 @@ exec csd-keyboard
 gaps horizontal $wm_setting_gap_width
 gaps vertical   $wm_setting_gap_heigth
 gaps inner      $wm_setting_gap_inner
-smart_gaps on
+smart_gaps off
 
 # Borders
 default_border pixel $wm_setting_border_size
@@ -67,7 +67,8 @@ exec --no-startup-id nitrogen --restore
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork -c 095100
+bindsym $mod+F4 exec i3lock -c 095100
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
