@@ -13,4 +13,5 @@ dependencies:
 - lxapperance (system theme)
 
 *remember to add a dot in the i3status.conf*
+
 *for the xmodmap work you have to modify the xinitrc file in ```/etc/X11/xinit```, adding ```usermodmap=$HOME/.Xmodmap``` to the file.
