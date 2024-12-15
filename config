@@ -243,9 +243,9 @@ set $show mod3
 bar {
         position                top
         status_command          i3status --config ~/.i3status.conf
-        mode                            hide
-        hidden_state                    hide
-        modifier                        $show
+        mode                    hide
+        hidden_state            hide
+        modifier                $show
         font pango:0xProto      9
         strip_workspace_numbers yes
         separator_symbol        "||"
