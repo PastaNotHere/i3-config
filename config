@@ -237,8 +237,8 @@ bindsym $mod+r mode "resize"
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 
-# i like pressing ctrl instead of $mod for showing the i3bar
-set $show Ctrl
+# i remap(using xmodmap) the mod3 to be only the right super key
+set $show mod3
 
 bar {
         position                top
